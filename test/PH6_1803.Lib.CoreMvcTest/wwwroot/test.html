@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+    <input type="button" name="name" value="下载" id="btnTestDown" />
+    <br />
+
+
+    <a href="http://localhost:52880/test/download">直接下载</a>
+    <br />
+
+    <a href="http://localhost:52880/test/downloadfile">直接下载2</a>
+    <br />
+
+    <div name="downloadfile" onclick="downloadFileFunction()">DownLoader</div>
+    <br />
+
+
+    <script>
+        $('#btnTestDown').on('click', function () {
+
+
+            $.get('http://localhost:52880/test/download', function (res) {
+                console.log(res);
+            })
+
+        });
+
+        function downloadFileFunction() {
+            $.get('http://localhost:52880/test/download', function (res) {
+                console.log(res);
+                let a = document.createElement('a');
+                a.href = res;
+                a.click();
+            })
+
+        }
+    </script>
+</body>
+</html>
