@@ -1,0 +1,13 @@
+IOC内置的DI,支持构造函数注入服务的形式,且只能逐条注册服务类型
+Autofac依赖注入:支持属性注入和构造注入
+
+1、Nuget包
+	AutoFac
+	Autofac.Extensions.DependencyInjectio 
+	
+	(内置DI所需要的包)
+	Microsoft.Extensions.DependencyInject
+	Microsoft.Extensions.DependencyInjection.Abstractions
+
+
+2、在Progame.cs中集成Autofac

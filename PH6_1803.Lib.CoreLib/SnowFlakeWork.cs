@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ * 雪花算法（分布式ID）
+ * **/
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
