@@ -15,6 +15,7 @@ namespace PH6_1803.Lib.CoreLib.DataAccess
 {
     public class MySqlDataAccess : IDataAccess
     {
+        //
         IConfiguration Configuration;
         public MySqlDataAccess(IConfiguration _Configuration)
         {
