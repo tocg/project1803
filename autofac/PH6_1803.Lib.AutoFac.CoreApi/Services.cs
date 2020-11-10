@@ -9,7 +9,6 @@ namespace PH6_1803.Lib.AutoFac.CoreApi.Services
     {
     }
 
-
     public interface IAccount {
         string Add();
     }
@@ -31,9 +30,7 @@ namespace PH6_1803.Lib.AutoFac.CoreApi.Services
         public Message()
         {
             Text = "Hello Message";
-
         }
-
     }
     public class Tool : ITool { }
 }
