@@ -9,5 +9,7 @@ Autofac依赖注入:支持属性注入和构造注入
 	Microsoft.Extensions.DependencyInject
 	Microsoft.Extensions.DependencyInjection.Abstractions
 
+	Autofac.Extras.DynamicProxy
+
 
 2、在Progame.cs中集成Autofac

@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "autofac", "autofac", "{0A6C
 		autofac.txt = autofac.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PH6_1803.Lib.AutoFac.CoreApi", "autofac\PH6_1803.Lib.AutoFac.CoreApi\PH6_1803.Lib.AutoFac.CoreApi.csproj", "{1AE343D8-D05B-4547-A817-77D001C11734}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PH6_1803.Lib.AutoFac.CoreApi", "autofac\PH6_1803.Lib.AutoFac.CoreApi\PH6_1803.Lib.AutoFac.CoreApi.csproj", "{1AE343D8-D05B-4547-A817-77D001C11734}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
